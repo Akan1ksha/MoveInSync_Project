@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - LLM_PROVIDER=${LLM_PROVIDER:-fake}
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - GROQ_API_KEY=${GROQ_API_KEY:-}
+      - JWT_SECRET=${JWT_SECRET:-dev-secret-change-in-prod}
+      - DATABASE_URL=sqlite:////data/moveinsync.db
+    volumes:
+      - db_data:/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+volumes:
+  db_data:

@@ -1,0 +1,79 @@
+[
+  {
+    "cab_id": "CAB-A1",
+    "company_id": "ACME_CORP",
+    "date": "2026-11-26",
+    "trip_type": "pickup",
+    "time": "09:00",
+    "route": "Koramangala → Whitefield",
+    "total_seats": 6,
+    "seats_available": 2,
+    "driver": "Ravi Kumar"
+  },
+  {
+    "cab_id": "CAB-A2",
+    "company_id": "ACME_CORP",
+    "date": "2026-11-26",
+    "trip_type": "drop",
+    "time": "19:00",
+    "route": "Whitefield → Koramangala",
+    "total_seats": 6,
+    "seats_available": 1,
+    "driver": "Suresh Nair"
+  },
+  {
+    "cab_id": "CAB-A3",
+    "company_id": "ACME_CORP",
+    "date": "2026-11-26",
+    "trip_type": "drop",
+    "time": "20:00",
+    "route": "Whitefield → HSR Layout",
+    "total_seats": 4,
+    "seats_available": 0,
+    "driver": "Meena Pillai"
+  },
+  {
+    "cab_id": "CAB-A4",
+    "company_id": "ACME_CORP",
+    "date": "2026-11-26",
+    "trip_type": "drop",
+    "time": "21:00",
+    "route": "Whitefield → Koramangala",
+    "total_seats": 6,
+    "seats_available": 3,
+    "driver": "Deepak Rao"
+  },
+  {
+    "cab_id": "CAB-G1",
+    "company_id": "GLOBEX_INC",
+    "date": "2026-11-26",
+    "trip_type": "pickup",
+    "time": "08:30",
+    "route": "Indiranagar → Electronic City",
+    "total_seats": 5,
+    "seats_available": 1,
+    "driver": "Ajay Singh"
+  },
+  {
+    "cab_id": "CAB-G2",
+    "company_id": "GLOBEX_INC",
+    "date": "2026-11-26",
+    "trip_type": "drop",
+    "time": "18:30",
+    "route": "Electronic City → Indiranagar",
+    "total_seats": 5,
+    "seats_available": 0,
+    "driver": "Priya Menon"
+  },
+  {
+    "cab_id": "CAB-G3",
+    "company_id": "GLOBEX_INC",
+    "date": "2026-11-26",
+    "trip_type": "drop",
+    "time": "20:00",
+    "route": "Electronic City → Indiranagar",
+    "total_seats": 5,
+    "seats_available": 4,
+    "driver": "Sunil Das"
+  }
+]

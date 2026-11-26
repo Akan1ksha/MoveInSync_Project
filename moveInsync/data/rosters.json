@@ -1,0 +1,72 @@
+{
+  "ACME_CORP": {
+    "EMP001": [
+      {
+        "id": "roster-001",
+        "date": "2026-11-26",
+        "trip_type": "pickup",
+        "scheduled_time": "09:00",
+        "cab_id": "CAB-A1",
+        "route": "Koramangala → Whitefield",
+        "driver": "Ravi Kumar",
+        "driver_phone": "9900001111"
+      },
+      {
+        "id": "roster-002",
+        "date": "2026-11-26",
+        "trip_type": "drop",
+        "scheduled_time": "19:00",
+        "cab_id": "CAB-A2",
+        "route": "Whitefield → Koramangala",
+        "driver": "Suresh Nair",
+        "driver_phone": "9900002222"
+      }
+    ],
+    "EMP002": [
+      {
+        "id": "roster-003",
+        "date": "2026-11-26",
+        "trip_type": "pickup",
+        "scheduled_time": "09:30",
+        "cab_id": "CAB-A1",
+        "route": "HSR Layout → Whitefield",
+        "driver": "Ravi Kumar",
+        "driver_phone": "9900001111"
+      },
+      {
+        "id": "roster-004",
+        "date": "2026-11-26",
+        "trip_type": "drop",
+        "scheduled_time": "20:00",
+        "cab_id": "CAB-A3",
+        "route": "Whitefield → HSR Layout",
+        "driver": "Meena Pillai",
+        "driver_phone": "9900003333"
+      }
+    ]
+  },
+  "GLOBEX_INC": {
+    "EMP101": [
+      {
+        "id": "roster-101",
+        "date": "2026-11-26",
+        "trip_type": "pickup",
+        "scheduled_time": "08:30",
+        "cab_id": "CAB-G1",
+        "route": "Indiranagar → Electronic City",
+        "driver": "Ajay Singh",
+        "driver_phone": "9900004444"
+      },
+      {
+        "id": "roster-102",
+        "date": "2026-11-26",
+        "trip_type": "drop",
+        "scheduled_time": "18:30",
+        "cab_id": "CAB-G2",
+        "route": "Electronic City → Indiranagar",
+        "driver": "Priya Menon",
+        "driver_phone": "9900005555"
+      }
+    ]
+  }
+}

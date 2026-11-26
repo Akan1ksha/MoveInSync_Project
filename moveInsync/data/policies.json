@@ -1,0 +1,14 @@
+{
+  "ACME_CORP": {
+    "cutoff_hours": 2.0,
+    "max_seats_per_cab": 6,
+    "allow_manager_override": true,
+    "escalation_contact": "transport-manager@acme.example"
+  },
+  "GLOBEX_INC": {
+    "cutoff_hours": 3.0,
+    "max_seats_per_cab": 5,
+    "allow_manager_override": true,
+    "escalation_contact": "ops@globex.example"
+  }
+}
